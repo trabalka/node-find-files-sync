@@ -1,0 +1,28 @@
+{
+  "name": "node-find-files-sync",
+  "version": "1.0.0",
+  "description": "Recursively search files in multiple dirs filtered by RegExp, file mask or custom filter function",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trabalka/node-find-files-sync.git"
+  },
+  "keywords": [
+    "search",
+    "find",
+    "recursive",
+    "traverse",
+    "walk",
+    "files",
+    "node",
+    "fs"
+  ],
+  "author": "Marek Trabalka",
+  "license": "CC0",
+  "bugs": {
+    "url": "https://github.com/trabalka/node-find-files-sync/issues"
+  },
+  "homepage": "https://github.com/trabalka/node-find-files-sync#readme"
+}
