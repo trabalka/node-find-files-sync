@@ -10,7 +10,7 @@ module.exports = function findFiles(paths, file_filter) {
 	if(!Array.isArray(paths)) paths = [paths]
 	const files = new Set()
 	for(let path of paths){
-		path = resolve(path)
+		path = resolve(path).replace(/^(\w:)\\/,'$1')
 		try{
 			const st = statSync(path)
 			if(st.isFile()){
