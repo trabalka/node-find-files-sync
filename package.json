@@ -1,6 +1,6 @@
 {
   "name": "node-find-files-sync",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Recursively search files in multiple dirs filtered by RegExp, file mask or custom filter function",
   "main": "index.js",
   "scripts": {
